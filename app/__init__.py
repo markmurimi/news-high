@@ -1,10 +1,22 @@
 from flask import Flask
-from config import DevConfig
+from flask_bootstrap import Bootstrap
+from config import config_options
 
-# Initializing application
-app = Flask(__name__)
+bootstrap = Bootstrap()
 
-# Setting up configuration
-app.config.from_object(DevConfig)
 
-from app import views
+def create_app(config_name):
+
+    app = Flask(__name__)
+
+    """This creation of the app configurations"""
+    app.config.from_object(config_options[config_name])
+
+    """This method is to initialize bootstrap"""
+    bootstrap.init_app(app)
+
+    """Setting up the configuration"""
+    from .requests import configure_request
+    configure_request(app)
+
+    return app
