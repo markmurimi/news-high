@@ -22,7 +22,7 @@ Click the link to the app provided on my github repo or you can simply copy this
 
 # Technologies.
 * Python3.6
-* Flask framework
+* Flask framework.
 * Bootstrap.
 
 ## License under [MIT](https://github.com/markmurimi/news-high/blob/master/LICENSE)
