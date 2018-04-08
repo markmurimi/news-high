@@ -20,7 +20,7 @@ def creating_app(config_name):
     configure_request(app)
 
     """Function for registering the blueprint"""
-    from .main import main as main_blueprint
+    from app import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
     return app

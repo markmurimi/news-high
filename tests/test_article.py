@@ -36,3 +36,6 @@ class TestingNewsArticles(unittest.TestCase):
         self.assertEqual(self.new_article.url,
                          'http://www.bbc.co.uk/news/world-europe-42420150')
         self.assertEqual(self.new_article.publishedAt, '2017-12-20T13:36:14Z')
+
+if __name__=='__main__':
+    unittest.main(verbosity=2)
