@@ -12,7 +12,7 @@ Click the link to the app provided on my github repo or you can simply copy this
 * Load GitHub on your browser.
 * Search for my github repo on the News Highlights App or simply click this link to the repo [link](https://github.com/markmurimi/news-high).
 * Git clone my repo to your desired project folder.
-* Open th terminal and type in the following commands.
+* Open the terminal and type in the following commands.
 * $ cd news-high.
 * $ python3.6 -m venv virtual (install virtual environment).
 * $ source virtual/bin/activate.
@@ -21,9 +21,9 @@ Click the link to the app provided on my github repo or you can simply copy this
 * $ ./start.sh.
 
 # Technologies.
-( Python3.6
+* Python3.6
 * Flask framework
 * Bootstrap
 
-## License under [MIT]()
+## License under [MIT](https://github.com/markmurimi/news-high/blob/master/LICENSE)
 # Created by Mark Murimi ~ © 2018.
