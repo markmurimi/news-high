@@ -19,3 +19,11 @@ Click the link to the app provided on my github repo or you can simply copy this
 * $ python3.6 -m pip install -r requirements.txt (install all dependencies).
 * Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development').
 * $ ./start.sh.
+
+# Technologies.
+( Python3.6
+* Flask framework
+* Bootstrap
+
+## License under [MIT]()
+# Created by Mark Murimi ~ © 2018.
