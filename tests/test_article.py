@@ -18,7 +18,7 @@ class TestingNewsArticles(unittest.TestCase):
 
     def test_instance(self):
         '''
-        Test case to check if self.new_article is an instance of Article
+       This test is to check 
         '''
         self.assertTrue(isinstance(self.new_article, NewsArticles))
     
