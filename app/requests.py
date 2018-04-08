@@ -1,6 +1,6 @@
 import urllib.request
 import json
-from .models import Sources, Articles
+from .models import NewsSources, NewsArticles
 
 """this is getting the API KEY"""
 api_key = None
@@ -65,7 +65,7 @@ def geting_results(sources_list):
         url = source_item.get('url')
         category = source_item.get('category')
 
-        source_object = Sources(id, name, description, url, category)
+        source_object = NewsSources(id, name, description, url, category)
         sources_results.append(source_object)
 
     return sources_results
