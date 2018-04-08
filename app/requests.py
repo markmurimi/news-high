@@ -2,10 +2,10 @@ import urllib.request
 import json
 from .models import Sources, Articles
 
-# Getting the API KEY
+"""this is getting the API KEY"""
 api_key = None
 
-# Getting the news base url
+"""this is getting the news base url"""
 base_url = None
 
 
