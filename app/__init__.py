@@ -5,7 +5,7 @@ from config import config_options
 bootstrap = Bootstrap()
 
 
-def create_app(config_name):
+def creating_app(config_name):
 
     app = Flask(__name__)
 
@@ -18,5 +18,9 @@ def create_app(config_name):
     """Setting up the configuration"""
     from .requests import configure_request
     configure_request(app)
+
+    """Function for registering the blueprint"""
+    from .main import main as main_blueprint
+    app.register_blueprint(main_blueprint)
 
     return app
