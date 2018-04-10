@@ -1,4 +1,4 @@
-from . import main
+from .import main
 from flask import render_template, request, redirect
 from ..requests import geting_sources, geting_articles
 

@@ -3,8 +3,8 @@ from app import creating_app
 
 app = creating_app('development')
 
-manager = Manager(app)
+manager = Manage(app)
 manager.add_command('server', Server)
 
 if __name__ == '__main__':
-    manager.run()
+    manager.run()               
