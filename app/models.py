@@ -1,4 +1,4 @@
-class NewsArticles:
+class Articles:
     """ Articles class to define the articles object """
 
     def __init__(self, author, title, description, urlToImage, url, publishedAt):
@@ -10,7 +10,7 @@ class NewsArticles:
         self.publishedAt = publishedAt
 
 
-class NewsSources:
+class Sources:
     """ Sources class to define the news source objects """
 
     def __init__(self, id, name, description, url, category):

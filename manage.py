@@ -3,7 +3,7 @@ from app import creating_app
 
 app = creating_app('development')
 
-manager = Manage(app)
+manager = Manager(app)
 manager.add_command('server', Server)
 
 if __name__ == '__main__':

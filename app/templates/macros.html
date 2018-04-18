@@ -20,11 +20,11 @@
 {% for article in article_list %}
 <div class="container">
     <li class="well">
-        <a href="{{article.url}}">
+        <a href={{article.url}}>
             <h3>{{article.title}}</h3>
             <p> Date: {{article.publishedAt[:10]}} </p>
             <p>{{article.description|truncate(70)}}</p>
-            <a href="{{ article.url }}" class="article-link"> Read more...</a>
+            <a href="{{ article.url }}" class="article-link"> Read more &raquo;</a>
             <img src='{{article.urlToImage}}' class="img-responsive">
 
     </li>
